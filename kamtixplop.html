@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooth Pain? Get Instant Relief in Wakad | Wellness Dental Clinic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root{--primary-teal:#0F766E;--primary-blue:#0B5ED7;--cta-green:#22C55E;--cta-green-dark:#16A34A;--emergency-red:#EF4444;--secondary-charcoal:#3A3A3A;--accent-gold:#D4AF37;--bg-offwhite:#F9F9F9;--text-dark:#2C2C2C;--text-light:#666;--white:#FFF;--shadow-sm:0 2px 8px rgba(0,0,0,0.08);--shadow-lg:0 8px 32px rgba(0,0,0,0.16);--transition:all 0.3s ease}
+        *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+        html{scroll-behavior:smooth}
+        body{font-family:'Poppins',sans-serif;font-size:16px;line-height:1.6;color:var(--text-dark);background:var(--bg-offwhite);overflow-x:hidden}
+        h1,h2,h3,h4,h5,h6{font-family:'Inter',sans-serif;font-weight:700;line-height:1.2}
+        a{text-decoration:none;color:inherit;transition:var(--transition)}
+        img{max-width:100%;height:auto;display:block}
+        .container{max-width:1200px;margin:0 auto;padding:0 20px}
+        .section{padding:80px 0}
+        .section-title{font-size:36px;text-align:center;margin-bottom:16px;color:var(--secondary-charcoal)}
+        .section-subtitle{text-align:center;color:var(--text-light);margin-bottom:48px;font-size:18px}
+        .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 28px;font-size:16px;font-weight:600;border-radius:8px;border:none;cursor:pointer;transition:var(--transition)}
+        .btn-primary{background:var(--cta-green);color:var(--white);box-shadow:0 4px 14px rgba(34,197,94,0.4)}
+        .btn-primary:hover{background:var(--cta-green-dark);transform:translateY(-2px)}
+        .btn-emergency{background:var(--emergency-red);color:var(--white);animation:pulse-red 2s infinite}
+        .btn-emergency:hover{background:#DC2626;transform:translateY(-2px)}
+        .btn-secondary{background:var(--white);color:var(--primary-teal);border:2px solid var(--primary-teal)}
+        .btn-secondary:hover{background:var(--primary-teal);color:var(--white)}
+        .btn-outline-white{background:transparent;color:var(--white);border:2px solid var(--white)}
+        .btn-outline-white:hover{background:var(--white);color:var(--primary-teal)}
+        @keyframes pulse-red{0%,100%{box-shadow:0 0 0 0 rgba(239,68,68,0.7)}50%{box-shadow:0 0 0 12px rgba(239,68,68,0)}}
+        .top-bar{background:var(--secondary-charcoal);color:var(--white);padding:8px 0;font-size:13px}
+        .top-bar-content{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+        .top-bar-info{display:flex;gap:20px}
+        .top-bar-info span{display:flex;align-items:center;gap:6px}
+        .top-bar-info i{color:var(--emergency-red)}
+        .header{background:var(--white);box-shadow:var(--shadow-sm);position:sticky;top:0;z-index:1000}
+        .header-main{padding:12px 0}
+        .header-content{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+        .logo{display:flex;flex-direction:column;gap:2px}
+        .logo-text{font-family:'Inter',sans-serif;font-size:20px;font-weight:700;color:var(--primary-teal)}
+        .logo-tagline{font-size:11px;color:var(--text-light)}
+        .nav-menu{display:flex;gap:20px;list-style:none;align-items:center}
+        .nav-menu a{font-weight:500;color:var(--secondary-charcoal);padding:8px 0;font-size:14px}
+        .nav-menu a:hover{color:var(--primary-teal)}
+        .header-cta{display:flex;gap:12px}
+        .mobile-menu-btn{display:none;background:none;border:none;font-size:22px;color:var(--secondary-charcoal);cursor:pointer}
+        .hero{background:linear-gradient(135deg,rgba(15,118,110,0.95) 0%,rgba(11,94,215,0.9) 100%);min-height:700px;display:flex;align-items:center;padding:80px 0}
+        .hero-wrapper{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+        .hero-content{color:var(--white);max-width:600px}
+        .hero-location{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,0.15);padding:8px 16px;border-radius:50px;font-size:13px;margin-bottom:24px}
+        .hero h1{font-size:52px;font-weight:800;margin-bottom:20px}
+        .hero h1 span{color:var(--cta-green)}
+        .hero p{font-size:18px;margin-bottom:28px;opacity:0.95}
+        .hero-cta{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:20px}
+        .hero-urgency{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--accent-gold);margin-bottom:32px}
+        .hero-urgency i{animation:blink 1.5s infinite}
+        @keyframes blink{0%,100%{opacity:1}50%{opacity:0.4}}
+        .hero-trust{display:flex;gap:24px;flex-wrap:wrap;padding-top:28px;border-top:1px solid rgba(255,255,255,0.2)}
+        .hero-trust-item{display:flex;align-items:center;gap:12px}
+        .hero-trust-icon{width:44px;height:44px;background:rgba(255,255,255,0.2);border-radius:12px;display:flex;align-items:center;justify-content:center}
+        .hero-trust-icon i{color:var(--accent-gold)}
+        .hero-trust-text{font-size:13px}
+        .hero-trust-text strong{display:block;font-size:16px;color:var(--white)}
+        .hero-image-wrapper{position:relative;width:100%;max-width:500px;margin:0 auto}
+        .hero-image{width:100%;border-radius:30px;box-shadow:0 25px 50px -12px rgba(0,0,0,0.4);border:4px solid rgba(255,255,255,0.2)}
+        .floating-badge{position:absolute;background:var(--white);padding:12px 16px;border-radius:12px;box-shadow:0 10px 25px rgba(0,0,0,0.2);display:flex;align-items:center;gap:10px;z-index:3;animation:float 3s ease-in-out infinite}
+        @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+        .badge-icon{width:36px;height:36px;background:linear-gradient(135deg,var(--primary-teal) 0%,var(--primary-blue) 100%);border-radius:50%;display:flex;align-items:center;justify-content:center;color:white;font-size:14px}
+        .badge-text{display:flex;flex-direction:column;line-height:1.2}
+        .badge-text strong{font-size:14px;color:var(--secondary-charcoal)}
+        .badge-text span{font-size:11px;color:var(--text-light)}
+        .badge-1{top:20%;left:-30px}
+        .badge-2{bottom:25%;right:-20px;animation-delay:0.5s}
+        .badge-3{top:60%;left:-20px;animation-delay:1s}
+        .why-us{background:var(--white)}
+        .why-us-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+        .why-us-card{background:var(--bg-offwhite);padding:32px;border-radius:16px;text-align:center;transition:var(--transition);border:1px solid #eee}
+        .why-us-card:hover{transform:translateY(-8px);box-shadow:var(--shadow-lg);border-color:var(--primary-teal)}
+        .why-us-icon{width:70px;height:70px;background:linear-gradient(135deg,var(--primary-teal) 0%,var(--primary-blue) 100%);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;font-size:32px}
+        .why-us-card h3{font-size:19px;margin-bottom:12px;color:var(--primary-teal)}
+        .why-us-card p{color:var(--text-light);font-size:14px}
+        .why-us-stat{background:linear-gradient(135deg,var(--primary-teal) 0%,var(--primary-blue) 100%);color:var(--white);padding:40px;border-radius:16px;text-align:center;margin-top:40px}
+        .services{background:var(--bg-offwhite)}
+        .services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+        .service-card{background:var(--white);padding:32px;border-radius:16px;box-shadow:var(--shadow-sm);transition:var(--transition);border-bottom:4px solid transparent}
+        .service-card:hover{transform:translateY(-8px);box-shadow:var(--shadow-lg);border-bottom-color:var(--cta-green)}
+        .service-icon{width:64px;height:64px;background:linear-gradient(135deg,var(--primary-teal) 0%,var(--primary-blue) 100%);border-radius:14px;display:flex;align-items:center;justify-content:center;margin-bottom:20px}
+        .service-icon i{font-size:28px;color:var(--white)}
+        .service-card h3{font-size:18px;margin-bottom:12px}
+        .service-card p{color:var(--text-light);font-size:14px;margin-bottom:16px}
+        .service-link{color:var(--primary-teal);font-weight:600;display:inline-flex;align-items:center;gap:6px;font-size:14px}
+        .secondary-services{margin-top:48px;text-align:center}
+        .secondary-services-list{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:16px}
+        .secondary-service-tag{background:var(--white);padding:10px 18px;border-radius:50px;font-size:13px;box-shadow:var(--shadow-sm);border:1px solid #eee}
+        .gallery{background:var(--white)}
+        .gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+        .gallery-item{position:relative;aspect-ratio:1;border-radius:16px;overflow:hidden;background:linear-gradient(135deg,#e0e0e0 0%,#f0f0f0 100%);transition:var(--transition)}
+        .gallery-item:hover{transform:scale(1.02)}
+        .gallery-item::before{content:'Before/After';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:var(--text-light);font-weight:600;font-size:14px}
+        .gallery-label{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(0,0,0,0.8));color:var(--white);padding:14px;font-size:13px;text-align:center}
+        .gallery-cta{text-align:center;margin-top:40px}
+        .about-doctor{background:var(--bg-offwhite)}
+        .about-doctor-content{display:grid;grid-template-columns:1fr 1.5fr;gap:48px;align-items:center}
+        .doctor-image{aspect-ratio:3/4;background:linear-gradient(135deg,var(--primary-teal) 0%,var(--primary-blue) 100%);border-radius:20px;display:flex;align-items:center;justify-content:center;color:var(--white);font-size:80px}
+        .doctor-info h3{font-size:28px;margin-bottom:8px}
+        .doctor-credentials{color:var(--primary-teal);font-weight:600;margin-bottom:20px}
+        .doctor-specializations ul{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+        .doctor-specializations li{display:flex;align-items:center;gap:10px;color:var(--text-light);font-size:14px}
+        .doctor-specializations li i{color:var(--cta-green)}
+        .doctor-quote{background:var(--white);padding:24px;border-radius:16px;border-left:4px solid var(--accent-gold);margin:24px 0;font-style:italic;color:var(--text-light)}
+        .testimonials{background:var(--white)}
+        .testimonials-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+        .testimonial-card{background:var(--bg-offwhite);padding:32px;border-radius:16px;transition:var(--transition);border:1px solid #eee}
+        .testimonial-card:hover{box-shadow:var(--shadow-lg);transform:translateY(-4px)}
+        .testimonial-stars{color:var(--accent-gold);margin-bottom:16px}
+        .testimonial-text{color:var(--text-light);font-size:15px;line-height:1.8;margin-bottom:20px}
+        .testimonial-author{display:flex;align-items:center;gap:12px}
+        .testimonial-avatar{width:50px;height:50px;background:linear-gradient(135deg,var(--primary-teal) 0%,var(--primary-blue) 100%);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--white);font-weight:600}
+        .testimonial-name{font-weight:600}
+        .testimonial-type{font-size:13px;color:var(--text-light)}
+        .faq{background:var(--bg-offwhite)}
+        .faq-container{max-width:800px;margin:0 auto}
+        .faq-item{background:var(--white);border-radius:16px;margin-bottom:14px;box-shadow:var(--shadow-sm);overflow:hidden;border:1px solid #eee}
+        .faq-question{padding:24px;display:flex;justify-content:space-between;align-items:center;cursor:pointer;font-weight:600}
+        .faq-question i{color:var(--primary-teal);transition:var(--transition);width:32px;height:32px;background:var(--bg-offwhite);border-radius:50%;display:flex;align-items:center;justify-content:center}
+        .faq-item.active .faq-question i{transform:rotate(180deg);background:var(--primary-teal);color:var(--white)}
+        .faq-answer{max-height:0;overflow:hidden;transition:max-height 0.3s ease}
+        .faq-item.active .faq-answer{max-height:500px}
+        .faq-answer p{padding:0 24px 24px;color:var(--text-light);font-size:15px}
+        .contact{background:var(--white)}
+        .contact-content{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+        .contact-info h3{font-size:26px;margin-bottom:24px}
+        .contact-item{display:flex;gap:16px;margin-bottom:20px}
+        .contact-item-icon{width:50px;height:50px;background:linear-gradient(135deg,var(--primary-teal) 0%,var(--primary-blue) 100%);border-radius:14px;display:flex;align-items:center;justify-content:center;color:var(--white);flex-shrink:0}
+        .contact-item-text h4{font-size:16px;margin-bottom:4px}
+        .contact-item-text p{color:var(--text-light);font-size:14px}
+        .contact-buttons{display:flex;flex-direction:column;gap:12px}
+        .map-container{border-radius:20px;overflow:hidden;box-shadow:var(--shadow-lg);height:400px}
+        .map-container iframe{width:100%;height:100%;border:none}
+        .footer{background:var(--secondary-charcoal);color:var(--white);padding:60px 0 20px}
+        .footer-content{display:grid;grid-template-columns:1fr 1fr 1fr;gap:48px;margin-bottom:40px}
+        .footer-column h4{font-size:18px;margin-bottom:20px;color:var(--accent-gold)}
+        .footer-column p,.footer-column a{color:rgba(255,255,255,0.8);font-size:14px;line-height:2.2}
+        .footer-column a:hover{color:var(--cta-green)}
+        .footer-links{list-style:none}
+        .footer-links li{margin-bottom:8px}
+        .social-links{display:flex;gap:12px}
+        .social-links a{width:42px;height:42px;background:rgba(255,255,255,0.1);border-radius:50%;display:flex;align-items:center;justify-content:center;transition:var(--transition)}
+        .social-links a:hover{background:var(--cta-green);transform:translateY(-4px)}
+        .footer-bottom{border-top:1px solid rgba(255,255,255,0.1);padding-top:24px;text-align:center;font-size:14px;color:rgba(255,255,255,0.6)}
+        .sticky-rating{position:fixed;top:100px;right:20px;background:var(--white);padding:12px 18px;border-radius:50px;box-shadow:var(--shadow-lg);display:flex;align-items:center;gap:8px;z-index:999;font-weight:600;font-size:14px;border:2px solid var(--accent-gold)}
+        .sticky-rating i{color:var(--accent-gold)}
+        .modal-overlay{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.75);display:none;align-items:center;justify-content:center;z-index:2000;padding:20px}
+        .modal-overlay.active{display:flex}
+        .modal-content{background:var(--white);border-radius:20px;max-width:520px;width:100%;max-height:90vh;overflow-y:auto;position:relative}
+        .modal-header{padding:24px;border-bottom:1px solid #eee;display:flex;justify-content:space-between;align-items:center;background:linear-gradient(135deg,var(--primary-teal) 0%,var(--primary-blue) 100%);border-radius:20px 20px 0 0}
+        .modal-header h3{font-size:22px;color:var(--white)}
+        .modal-close{background:rgba(255,255,255,0.2);border:none;width:36px;height:36px;border-radius:50%;font-size:20px;color:var(--white);cursor:pointer}
+        .modal-close:hover{background:var(--emergency-red)}
+        .modal-body{padding:28px}
+        .form-note{background:linear-gradient(135deg,rgba(34,197,94,0.1) 0%,rgba(15,118,110,0.1) 100%);padding:16px;border-radius:12px;font-size:14px;margin-bottom:24px;border:1px solid var(--cta-green)}
+        .form-group{margin-bottom:18px}
+        .form-group label{display:block;margin-bottom:8px;font-weight:600;font-size:14px}
+        .form-group input,.form-group select,.form-group textarea{width:100%;padding:14px 16px;border:2px solid #e5e5e5;border-radius:10px;font-size:15px;font-family:inherit}
+        .form-group input:focus,.form-group select:focus,.form-group textarea:focus{outline:none;border-color:var(--primary-teal);box-shadow:0 0 0 4px rgba(15,118,110,0.1)}
+        .mobile-bottom-bar{display:none;position:fixed;bottom:0;left:0;right:0;background:var(--white);padding:10px 20px;box-shadow:0 -4px 20px rgba(0,0,0,0.1);z-index:1500;justify-content:space-between;align-items:center;gap:10px}
+        .mobile-bottom-bar .btn{flex:1;padding:12px;font-size:14px}
+        .mobile-bottom-bar .btn-whatsapp{background:#25D366;color:white}
+        .animate-on-scroll{opacity:0;transform:translateY(30px);transition:opacity 0.6s ease,transform 0.6s ease}
+        .animate-on-scroll.visible{opacity:1;transform:translateY(0)}
+        @media(max-width:992px){.why-us-grid,.services-grid,.testimonials-grid{grid-template-columns:repeat(2,1fr)}.gallery-grid{grid-template-columns:repeat(2,1fr)}.about-doctor-content,.contact-content{grid-template-columns:1fr}.footer-content{grid-template-columns:1fr 1fr}.hero-wrapper{grid-template-columns:1fr;text-align:center}.hero-content{max-width:100%}.hero-image-container{max-width:400px;margin:0 auto}.hero h1{font-size:40px}.hero-location{margin:0 auto 20px}.hero-cta,.hero-trust{justify-content:center}.floating-badge{display:none}}
+        @media(max-width:768px){.top-bar-content,.top-bar-info{justify-content:center}.header-content{flex-wrap:wrap}.nav-menu{display:none;position:absolute;top:100%;left:0;right:0;background:var(--white);flex-direction:column;padding:20px}.nav-menu.active{display:flex}.mobile-menu-btn{display:block}.header-cta{display:none}.hero{min-height:auto;padding:60px 0}.hero h1{font-size:32px}.hero-cta{flex-direction:column}.hero-cta .btn{width:100%}.hero-trust{flex-direction:column;align-items:center;gap:16px}.why-us-grid,.services-grid,.testimonials-grid,.gallery-grid{grid-template-columns:1fr}.section{padding:60px 0}.section-title{font-size:30px}.doctor-specializations ul{grid-template-columns:1fr}.footer-content{grid-template-columns:1fr;gap:32px}.sticky-rating{display:none}.mobile-bottom-bar{display:flex}}
+        @media(max-width:480px){.hero h1{font-size:28px}.btn{padding:12px 22px;font-size:15px}}
+    </style>
+</head>
+<body>
+    <div class="top-bar"><div class="container"><div class="top-bar-content"><div class="top-bar-info"><span><i class="fas fa-ambulance"></i> Emergency: +91 7397 499 591</span><span><i class="fas fa-clock"></i> 24/7 Emergency | 6:15 AM – 11:15 PM</span></div></div></div></div>
+    <header class="header"><div class="header-main"><div class="container"><div class="header-content"><a href="#" class="logo"><span class="logo-text">Wellness Dental</span><span class="logo-tagline">Painless Dentistry. Save Your Teeth.</span></a><button class="mobile-menu-btn"><i class="fas fa-bars"></i></button><ul class="nav-menu"><li><a href="#home">Home</a></li><li><a href="#services">Services</a></li><li><a href="#about">About</a></li><li><a href="#testimonials">Testimonials</a></li><li><a href="#faq">FAQ</a></li><li><a href="#contact">Contact</a></li></ul><div class="header-cta"><button class="btn btn-primary open-modal"><i class="fas fa-calendar-check"></i> Book Appointment</button><button class="btn btn-emergency scroll-to-contact"><i class="fas fa-phone-alt"></i> Call Now</button></div></div></div></div></header>
+    <div class="sticky-rating"><i class="fas fa-star"></i><span>4.9/5 Google Rating</span></div>
+    <section class="hero" id="home"><div class="container"><div class="hero-wrapper"><div class="hero-content"><div class="hero-location"><i class="fas fa-map-marker-alt"></i><span>Serving Wakad, Hinjewadi, Baner & Pimpri-Chinchwad</span></div><h1>Tooth Pain? Get <span>Instant Relief</span> in Wakad.</h1><p>Painless root canals, smile makeovers, and family dental care trusted by 1000+ patients. Treated by Dr. Sangeetha K (10+ years experience).</p><div class="hero-cta"><button class="btn btn-primary open-modal"><i class="fas fa-calendar-check"></i> Book Appointment</button><button class="btn btn-outline-white scroll-to-contact"><i class="fas fa-phone-alt"></i> Call Now</button></div><div class="hero-urgency"><i class="fas fa-circle"></i><span>Limited slots available today • Emergency cases prioritized</span></div><div class="hero-trust"><div class="hero-trust-item"><div class="hero-trust-icon"><i class="fas fa-star"></i></div><div class="hero-trust-text"><strong>4.9 Rating</strong>Google Reviews</div></div><div class="hero-trust-item"><div class="hero-trust-icon"><i class="fas fa-user-md"></i></div><div class="hero-trust-text"><strong>10+ Years</strong>Experience</div></div><div class="hero-trust-item"><div class="hero-trust-icon"><i class="fas fa-clock"></i></div><div class="hero-trust-text"><strong>24/7 Support</strong>Emergency Care</div></div></div></div><div class="hero-image-container"><div class="hero-image-wrapper"><img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=600&h=700&fit=crop" alt="Dental Care" class="hero-image"><div class="floating-badge badge-1"><div class="badge-icon"><i class="fas fa-check-circle"></i></div><div class="badge-text"><strong>Painless</strong><span>Guaranteed</span></div></div><div class="floating-badge badge-2"><div class="badge-icon"><i class="fas fa-ambulance"></i></div><div class="badge-text"><strong>24/7</strong><span>Emergency</span></div></div><div class="floating-badge badge-3"><div class="badge-icon"><i class="fas fa-shield-alt"></i></div><div class="badge-text"><strong>100%</strong><span>Safe & Hygienic</span></div></div></div></div></div></div></section>
+    <section class="why-us section"><div class="container"><h2 class="section-title">Why Choose Wellness Dental?</h2><p class="section-subtitle">Experience the difference in painless, advanced dental care</p><div class="why-us-grid"><div class="why-us-card animate-on-scroll"><div class="why-us-icon">🦷</div><h3>Save Your Natural Teeth</h3><p>We specialize in complex Root Canal Treatments and restoration techniques.</p></div><div class="why-us-card animate-on-scroll"><div class="why-us-icon">💊</div><h3>Painless Dentistry</h3><p>Advanced rotary endodontics + sedation options = zero anxiety.</p></div><div class="why-us-card animate-on-scroll"><div class="why-us-icon">🌙</div><h3>24/7 Emergency</h3><p>Tooth trauma at 2 AM? We're open. Severe pain on Sunday? We have a chair ready.</p></div></div><div class="why-us-stat animate-on-scroll"><h3>Dr. Sangeetha K. | 10+ Years Experience</h3><p>Complex RCT Success Rate: 94%+ • 1000+ Happy Patients</p></div></div></section>
+    <section class="services section" id="services"><div class="container"><h2 class="section-title">Our Services</h2><p class="section-subtitle">Comprehensive dental care under one roof</p><div class="services-grid"><div class="service-card animate-on-scroll"><div class="service-icon"><i class="fas fa-tooth"></i></div><h3>Painless Root Canal (RCT)</h3><p>Advanced rotary endodontics for complex cases.</p><a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a></div><div class="service-card animate-on-scroll"><div class="service-icon"><i class="fas fa-smile"></i></div><h3>Smile Makeovers</h3><p>Veneers, teeth whitening, laminates.</p><a href="#" class="service-link">View Gallery <i class="fas fa-arrow-right"></i></a></div><div class="service-card animate-on-scroll"><div class="service-icon"><i class="fas fa-teeth-open"></i></div><h3>Invisible Braces</h3><p>Metal, ceramic braces. Clear aligner systems.</p><a href="#" class="service-link">Consultation <i class="fas fa-arrow-right"></i></a></div><div class="service-card animate-on-scroll"><div class="service-icon"><i class="fas fa-baby"></i></div><h3>Pediatric Dentistry</h3><p>Specialized, child-friendly care.</p><a href="#" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a></div><div class="service-card animate-on-scroll"><div class="service-icon"><i class="fas fa-procedures"></i></div><h3>Surgical Extractions</h3><p>Wisdom teeth, complex extractions.</p><a href="#" class="service-link">Schedule <i class="fas fa-arrow-right"></i></a></div><div class="service-card animate-on-scroll"><div class="service-icon"><i class="fas fa-magic"></i></div><h3>Dental Implants</h3><p>Crowns, bridges, full implant solutions.</p><a href="#" class="service-link">Pricing & Info <i class="fas fa-arrow-right"></i></a></div></div><div class="secondary-services animate-on-scroll"><p><strong>Also Available:</strong></p><div class="secondary-services-list"><span class="secondary-service-tag">💇 PRP Hair Restoration</span><span class="secondary-service-tag">✨ Skin Whitening</span><span class="secondary-service-tag">👃 Facial Aesthetics</span><span class="secondary-service-tag">🧔 Beard Growth</span></div></div></div></section>
+    <section class="gallery section"><div class="container"><h2 class="section-title">Smile Transformations</h2><p class="section-subtitle">Real results from our valued patients</p><div class="gallery-grid"><div class="gallery-item animate-on-scroll"><span class="gallery-label">Smile Makeover</span></div><div class="gallery-item animate-on-scroll"><span class="gallery-label">Teeth Whitening</span></div><div class="gallery-item animate-on-scroll"><span class="gallery-label">Invisible Braces</span></div><div class="gallery-item animate-on-scroll"><span class="gallery-label">Dental Implant</span></div></div><div class="gallery-cta animate-on-scroll"><p style="margin-bottom:24px;color:var(--text-light);">Your smile transformation could be next.</p><button class="btn btn-primary open-modal"><i class="fas fa-calendar-check"></i> Book Free Consultation</button></div></div></section>
+    <section class="about-doctor section" id="about"><div class="container"><div class="about-doctor-content"><div class="doctor-image animate-on-scroll"><i class="fas fa-user-md"></i></div><div class="doctor-info animate-on-scroll"><h3>DR. SANGEETHA K. | BDS</h3><p class="doctor-credentials">10+ Years Clinical Practice • 1000+ Patients Treated</p><div class="doctor-specializations"><h4>Specialized in:</h4><ul><li><i class="fas fa-check-circle"></i> Complex Root Canals</li><li><i class="fas fa-check-circle"></i> Cosmetic Dentistry</li><li><i class="fas fa-check-circle"></i> Painless Protocols</li><li><i class="fas fa-check-circle"></i> Preventive Care</li></ul></div><div class="doctor-quote">"Every tooth is worth saving. Pain-free dentistry is non-negotiable."</div><p style="color:var(--text-light);margin-bottom:24px;">Dr. Sangeetha K. completed her BDS from Sri Ramachandra Dental College Hospital in 2016. With over 10 years of clinical experience.</p><button class="btn btn-primary open-modal"><i class="fas fa-calendar-check"></i> Book with Dr. Sangeetha</button></div></div></div></section>
+    <section class="testimonials section" id="testimonials"><div class="container"><h2 class="section-title">What Our Patients Say</h2><p class="section-subtitle">Real experiences from real patients</p><div class="testimonials-grid"><div class="testimonial-card animate-on-scroll"><div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p class="testimonial-text">"I had severe tooth pain at 11 PM. Called them, and Dr. Sangeetha handled my RCT without any pain. Highly recommend."</p><div class="testimonial-author"><div class="testimonial-avatar">RM</div><div><div class="testimonial-name">Rajesh M.</div><div class="testimonial-type">RCT Patient</div></div></div></div><div class="testimonial-card animate-on-scroll"><div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p class="testimonial-text">"My smile completely transformed with their cosmetic treatment. The staff was honest. Great experience."</p><div class="testimonial-author"><div class="testimonial-avatar">PS</div><div><div class="testimonial-name">Priya S.</div><div class="testimonial-type">Smile Makeover</div></div></div></div><div class="testimonial-card animate-on-scroll"><div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p class="testimonial-text">"24-hour availability is a lifesaver. Got emergency dental care at 2 AM. Professional and fast."</p><div class="testimonial-author"><div class="testimonial-avatar">VT</div><div><div class="testimonial-name">Vikram T.</div><div class="testimonial-type">Emergency Patient</div></div></div></div></div></div></section>
+    <section class="faq section" id="faq"><div class="container"><h2 class="section-title">Frequently Asked Questions</h2><p class="section-subtitle">Find answers to common questions</p><div class="faq-container"><div class="faq-item animate-on-scroll"><div class="faq-question"><span>Do you offer emergency services?</span><i class="fas fa-chevron-down"></i></div><div class="faq-answer"><p>Yes. We are open 24/7 for emergencies. Call +91 7397 499 591 immediately.</p></div></div><div class="faq-item animate-on-scroll"><div class="faq-question"><span>What makes your RCT treatment different?</span><i class="fas fa-chevron-down"></i></div><div class="faq-answer"><p>Advanced rotary endodontics + sedation options + 10+ years specialist experience. We save 94%+ of teeth.</p></div></div><div class="faq-item animate-on-scroll"><div class="faq-question"><span>Do you offer invisible braces?</span><i class="fas fa-chevron-down"></i></div><div class="faq-answer"><p>Yes. We provide clear aligner consultations. Free orthodontic assessment.</p></div></div><div class="faq-item animate-on-scroll"><div class="faq-question"><span>How much does an RCT cost?</span><i class="fas fa-chevron-down"></i></div><div class="faq-answer"><p>Pricing varies by tooth complexity. Initial consultation: ₹200 (refundable toward treatment).</p></div></div><div class="faq-item animate-on-scroll"><div class="faq-question"><span>Is parking available?</span><i class="fas fa-chevron-down"></i></div><div class="faq-answer"><p>Yes, street parking is available near the clinic (near CNG pump on Wakad Road).</p></div></div><div class="faq-item animate-on-scroll"><div class="faq-question"><span>How can I book an appointment?</span><i class="fas fa-chevron-down"></i></div><div class="faq-answer"><p>Use the "Book Appointment" button, call +91 7397 499 591, or WhatsApp your preferred date/time.</p></div></div></div></div></section>
+    <section class="contact section" id="contact"><div class="container"><h2 class="section-title">Visit Us Today</h2><p class="section-subtitle">We're here to help with all your dental needs</p><div class="contact-content"><div class="contact-info animate-on-scroll"><h3>Contact Information</h3><div class="contact-details"><div class="contact-item"><div class="contact-item-icon"><i class="fas fa-map-marker-alt"></i></div><div class="contact-item-text"><h4>Address</h4><p>B-3, Wakad Road, Near CNG Pump, Onkar Colony, Wakad, Pune, Maharashtra 411033</p></div></div><div class="contact-item"><div class="contact-item-icon"><i class="fas fa-phone-alt"></i></div><div class="contact-item-text"><h4>Phone</h4><p>+91 7397 499 591</p></div></div><div class="contact-item"><div class="contact-item-icon"><i class="fab fa-whatsapp"></i></div><div class="contact-item-text"><h4>WhatsApp</h4><p>+91 7397 499 591 (Quick Booking)</p></div></div><div class="contact-item"><div class="contact-item-icon"><i class="fas fa-clock"></i></div><div class="contact-item-text"><h4>Hours</h4><p>24/7 Emergency Support<br>Standard: 6:15 AM – 11:15 PM (Daily)</p></div></div></div><div class="contact-buttons"><a href="https://wa.me/917397499591" target="_blank" class="btn btn-primary"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a><button class="btn btn-secondary open-modal"><i class="fas fa-calendar-check"></i> Book Appointment</button><a href="https://maps.google.com/?q=Wellness+Dental+Wakad+Pune" target="_blank" class="btn btn-secondary"><i class="fas fa-directions"></i> Get Directions</a></div></div><div class="map-container animate-on-scroll"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.567890123456!2d73.7615!3d18.5996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDM1JzU4LjYiTiA3M8KwNDUnNDkuMCJF!5e0!3m2!1sen!2sin!4v1234567890" allowfullscreen="" loading="lazy"></iframe></div></div></div></section>
+    <footer class="footer"><div class="container"><div class="footer-content"><div class="footer-column"><h4>Wellness Dental</h4><p>B-3, Wakad Road, Near CNG Pump, Onkar Colony, Wakad, Pune, Maharashtra 411033</p><p style="margin-top:16px;"><i class="fas fa-phone"></i> +91 7397 499 591<br><i class="fas fa-envelope"></i> contact@wellnessdentalwakad.com</p></div><div class="footer-column"><h4>Quick Links</h4><ul class="footer-links"><li><a href="#services">Services</a></li><li><a href="#about">About</a></li><li><a href="#testimonials">Testimonials</a></li><li><a href="#faq">FAQ</a></li></ul></div><div class="footer-column"><h4>Follow Us</h4><div class="social-links"><a href="#"><i class="fab fa-google"></i></a><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="https://wa.me/917397499591"><i class="fab fa-whatsapp"></i></a></div><p style="margin-top:16px;">Check our 4.9★ rating on Google!</p></div></div><div class="footer-bottom"><p>© 2024 Wellness Dental and Cosmetic Clinic. 24/7 Emergency Dental Care.</p></div></div></footer>
+    <div class="modal-overlay" id="appointmentModal"><div class="modal-content"><div class="modal-header"><h3>Book Your Appointment</h3><button class="modal-close"><i class="fas fa-times"></i></button></div><div class="modal-body"><div class="form-note"><strong>₹200 Consultation Fee</strong> (Refundable toward treatment)</div><form id="appointmentForm"><div class="form-group"><label for="name">Full Name *</label><input type="text" id="name" name="name" required placeholder="Enter your full name"></div><div class="form-group"><label for="phone">Phone Number *</label><input type="tel" id="phone" name="phone" required placeholder="+91 XXXXX XXXXX"></div><div class="form-group"><label for="email">Email Address</label><input type="email" id="email" name="email" placeholder="your@email.com"></div><div class="form-group"><label for="service">Service Required *</label><select id="service" name="service" required><option value="">Select a service</option><option value="RCT">Root Canal Treatment (RCT)</option><option value="Cosmetic">Smile Makeover / Cosmetics</option><option value="Orthodontics">Orthodontics / Braces</option><option value="Pediatric">Pediatric Dentistry</option><option value="Extraction">Surgical Extraction</option><option value="Implant">Dental Implant</option><option value="Emergency">Emergency Care</option><option value="Other">Other / Consultation</option></select></div><div class="form-group"><label for="date">Preferred Date *</label><input type="date" id="date" name="date" required></div><div class="form-group"><label for="time">Preferred Time *</label><select id="time" name="time" required><option value="">Select a time</option><option value="06:15-08:00">6:15 AM - 8:00 AM</option><option value="08:00-10:00">8:00 AM - 10:00 AM</option><option value="10:00-12:00">10:00 AM - 12:00 PM</option><option value="12:00-14:00">12:00 PM - 2:00 PM</option><option value="14:00-16:00">2:00 PM - 4:00 PM</option><option value="16:00-18:00">4:00 PM - 6:00 PM</option><option value="18:00-20:00">6:00 PM - 8:00 PM</option><option value="20:00-22:00">8:00 PM - 10:00 PM</option></select></div><div class="form-group"><label for="message">Additional Notes</label><textarea id="message" name="message" rows="3" placeholder="Any specific concerns?"></textarea></div><button type="submit" class="btn btn-primary" style="width:100%;" id="submitBtn"><i class="fas fa-paper-plane"></i> Submit Request</button></form></div></div></div>
+    <div class="mobile-bottom-bar"><button class="btn btn-emergency scroll-to-contact"><i class="fas fa-phone-alt"></i> Call</button><a href="https://wa.me/917397499591" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a><button class="btn btn-primary open-modal"><i class="fas fa-calendar-check"></i> Book</button></div>
+    <script>
+        const CONFIG={CLINIC_WHATSAPP:'917397499591',GOOGLE_SHEETS_URL:'https://script.google.com/macros/s/AKfycbwK_KHWUks7pgpURCYNUP-1Qm1DBOPLJFFxRsQRu9Gazqw-VCtFD9xjqmfdmXiQxZeWqQ/exec'};
+        const mobileMenuBtn=document.querySelector('.mobile-menu-btn'),navMenu=document.querySelector('.nav-menu');
+        mobileMenuBtn.addEventListener('click',()=>{navMenu.classList.toggle('active');const icon=mobileMenuBtn.querySelector('i');icon.classList.toggle('fa-bars');icon.classList.toggle('fa-times');});
+        document.querySelectorAll('.nav-menu a').forEach(link=>{link.addEventListener('click',()=>{navMenu.classList.remove('active');mobileMenuBtn.querySelector('i').classList.add('fa-bars');mobileMenuBtn.querySelector('i').classList.remove('fa-times');});});
+        const modal=document.getElementById('appointmentModal'),openModalBtns=document.querySelectorAll('.open-modal'),closeModalBtn=document.querySelector('.modal-close');
+        openModalBtns.forEach(btn=>{btn.addEventListener('click',()=>{modal.classList.add('active');document.body.style.overflow='hidden';});});
+        closeModalBtn.addEventListener('click',()=>{modal.classList.remove('active');document.body.style.overflow='';});
+        modal.addEventListener('click',(e)=>{if(e.target===modal){modal.classList.remove('active');document.body.style.overflow='';}});
+        document.getElementById('date').setAttribute('min',new Date().toISOString().split('T')[0]);
+        document.querySelectorAll('.scroll-to-contact').forEach(btn=>{btn.addEventListener('click',()=>{document.getElementById('contact').scrollIntoView({behavior:'smooth',block:'start'});});});
+        function sanitizePhone(phone){return phone.replace(/\D/g,'').replace(/^0/,'');}
+        function openWhatsApp(phone,message){window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`,'_blank');}
+        document.getElementById('appointmentForm').addEventListener('submit',async(e)=>{e.preventDefault();const formData=new FormData(e.target),data=Object.fromEntries(formData),submitBtn=document.getElementById('submitBtn');submitBtn.innerHTML='<i class="fas fa-spinner fa-spin"></i> Saving...';submitBtn.disabled=true;let sheetsSaved=false;try{await fetch(CONFIG.GOOGLE_SHEETS_URL,{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/json'},body:JSON.stringify({name:data.name,phone:data.phone,email:data.email,service:data.service,date:data.date,time:data.time,message:data.message})});sheetsSaved=true;}catch(error){console.error('Google Sheets error:',error);}const message=`*🦷 New Booking Request*\n\n*Patient:* ${data.name}\n*Phone:* ${data.phone}\n*Service:* ${data.service}\n*Date:* ${data.date}\n*Time:* ${data.time}\n*Notes:* ${data.message||'None'}\n\nPlease confirm.`;openWhatsApp(CONFIG.CLINIC_WHATSAPP,message);setTimeout(()=>{const patientNumber=sanitizePhone(data.phone);if(patientNumber.length>=10){const patientMessage=`*✅ Appointment Requested*\n\nHello ${data.name},\n\nYour appointment:\n• Service: ${data.service}\n• Date: ${data.date}\n• Time: ${data.time}\n• Clinic: Wellness Dental, Wakad\n\nWait for our confirmation call.\nFor changes: +91 7397 499 591`;openWhatsApp(patientNumber,patientMessage);}},1500);setTimeout(()=>{let successMsg=`Thank you ${data.name}!\n\n`;if(sheetsSaved)successMsg+='✓ Saved to our system\n';successMsg+='✓ WhatsApp opened for confirmation\n\nPlease send the WhatsApp message to complete.';alert(successMsg);e.target.reset();modal.classList.remove('active');document.body.style.overflow='';submitBtn.innerHTML='<i class="fas fa-paper-plane"></i> Submit Request';submitBtn.disabled=false;},2000);});
+        document.querySelectorAll('.faq-item').forEach(item=>{item.querySelector('.faq-question').addEventListener('click',()=>{const isActive=item.classList.contains('active');document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('active'));if(!isActive)item.classList.add('active');});});
+        const observer=new IntersectionObserver((entries)=>{entries.forEach(entry=>{if(entry.isIntersecting)entry.target.classList.add('visible');});},{threshold:0.1});document.querySelectorAll('.animate-on-scroll').forEach(el=>observer.observe(el));
+        const header=document.querySelector('.header');window.addEventListener('scroll',()=>{header.style.boxShadow=window.scrollY>100?'0 4px 16px rgba(0,0,0,0.15)':'0 2px 8px rgba(0,0,0,0.08)';});
+        console.log('✅ Wellness Dental Website Loaded! Appointments save to Google Sheets + WhatsApp');
+    </script>
+</body>
+</html>
